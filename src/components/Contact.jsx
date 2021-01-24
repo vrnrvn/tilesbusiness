@@ -17,7 +17,7 @@ const Contact = () => {
           <Card.Text> </Card.Text>
           <br></br>
           <Card.Text className="text-center">
-            E-mail Blue Garden Tiles for any question or business propositions:
+            E-mail Blue Garden Tiles for any question or order propositions:
           </Card.Text>
           <Card.Link href="mailto: bluegardentiles@gmail.com" className="text-center">bluegardentiles@gmail.com</Card.Link>
           <Card.Text> </Card.Text>
@@ -25,10 +25,11 @@ const Contact = () => {
           <Card.Text className="text-center">
             Find us on social media:
           </Card.Text>
-          <Card.Link href="#" >Social media</Card.Link>
+          <Card.Link href="https://www.facebook.com/Blue-Garden-Tiles-1943399269301246/" >Facebook</Card.Link>
+          <Card.Link href="https://www.instagram.com/bluegardentiles/" >Instagram</Card.Link>
         </Card.Body>     
       </Card>
       </Container>);
 }
- 
+ //
 export default Contact;

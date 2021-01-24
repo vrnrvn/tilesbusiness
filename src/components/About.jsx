@@ -31,7 +31,7 @@ const About = () => {
             <div>
                 <Container className="text-center">
                 <h1>About</h1>
-                <img src={image2} className="header-image"/>
+                <img src={image2} alt="Crafting a tile" className="header-image"/>
                 <p>
                 We are a team of artisans and artists who have been studying and working on the techniques of hand painting tiles, specifically, <b>azulejos</b>.
 We craft almost all details, from making the glaze and the cobalt wash (paint), to the difficult and messy process of tile glazing. We review and fix each and every tile individually before beginning the fun part: painting. 
