@@ -10,7 +10,6 @@ const Styles = styled.div`
 
     p {
         margin-top: 5em;
-        margin-left: 2em;
         font-size: 18px;
         line-height: 2;
     }
