@@ -8,8 +8,9 @@ const Styles = styled.div`
         border-radius: 50%;
         float: right;
         margin-top: 2em;
-        margin-bottom: auto;
+        margin-bottom: 5em;
         margin-left: 8em;
+        margin-right: 3em;
     }
 
     h1 {
