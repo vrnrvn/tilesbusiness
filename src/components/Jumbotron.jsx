@@ -9,6 +9,8 @@ const Styles = styled.div`
         background-size: cover;
         color: #efefef;
         height: 200px;
+        text-shadow: 2px 2px #1c1c1c;
+        font-family: cursive;
         position: relative;
         z-index: -2;
     }

@@ -21,7 +21,7 @@ const Home = () => {
     <Container className="text-center">
         <Styles>
         <h2>Welcome to Blue Garden Tiles</h2>
-            <a href="https://www.etsy.com/shop/BlueGardenTiles">Buy through Etsy</a>
+            <a href="https://www.etsy.com/shop/BlueGardenTiles">Find us at Etsy.com</a>
         <p>      
         Blue Garden Tiles was conceived from our passion for the <b>azulejos</b> (Portuguese tiles) that embellish the streets, homes, shops, gardens, and any space that allows for the addition of these fabulous mosaics, throughout Portugal.
 
