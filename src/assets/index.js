@@ -65,3 +65,5 @@ export { default as tile64 } from './tile64.jpg';
 export { default as tile65 } from './tile65.jpg';
 export { default as tile66 } from './tile66.jpg';
 export { default as tile67 } from './tile67.jpg';
+export { default as tile68 } from './tile68.jpg';
+export { default as tile69 } from './tile69.jpg';
