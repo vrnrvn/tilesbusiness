@@ -169,7 +169,7 @@ const Tiles = () => {
       </Container>
      
       
-      <Container className="mt-5 border p-3"><h6 className="font-italic mt-5 mb-5">Sets of 4.25" hand painted tiles</h6>
+      <Container className="mt-5 border p-3 mb-5"><h6 className="font-italic mt-5 mb-5">Sets of 4.25" hand painted tiles</h6>
         <Row>
          <Col xs={6} md={4} className="mt-5">
             <Image src={tile45} thumbnail /> T-1
