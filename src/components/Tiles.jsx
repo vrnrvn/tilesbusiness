@@ -8,7 +8,7 @@ import { tile1, tile2, tile3, tile4, tile5, tile6, tile7, tile8,
     tile41, tile42, tile43, tile44, tile45, tile46, tile47, tile48, 
     tile49, tile50, tile51, tile52, tile53, tile54, tile55, tile56,
     tile57, tile58, tile59, tile60, tile61, tile62, tile63, tile64, 
-    tile65, tile66, tile67, tile68, tile69 } from '../assets/';
+    tile65, tile66, tile67, tile68, tile69, tile70 } from '../assets/';
 
 const Tiles = () => {
     return ( 
@@ -242,6 +242,9 @@ const Tiles = () => {
           </Col>
           <Col xs={6} md={4} className="mt-5">
             <Image src={tile69} thumbnail /> T-24
+          </Col>
+          <Col xs={6} md={4} className="mt-5">
+            <Image src={tile70} thumbnail /> T-25
           </Col>
         </Row>
       </Container>
