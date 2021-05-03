@@ -8,7 +8,8 @@ import { tile1, tile2, tile3, tile4, tile5, tile6, tile7, tile8,
     tile41, tile42, tile43, tile44, tile45, tile46, tile47, tile48, 
     tile49, tile50, tile51, tile52, tile53, tile54, tile55, tile56,
     tile57, tile58, tile59, tile60, tile61, tile62, tile63, tile64, 
-    tile65, tile66, tile67, tile68, tile69, tile70, tile71 } from '../assets/';
+    tile65, tile66, tile67, tile68, tile69, tile70, tile71, tile72,
+    tile73, tile74, tile75 } from '../assets/';
 
 const Tiles = () => {
     return ( 
@@ -95,6 +96,9 @@ const Tiles = () => {
           <Col xs={6} md={4} className="mt-5">
             <Image src={tile25} thumbnail /> P-25
           </Col>
+          <Col xs={6} md={4} className="mt-5">
+            <Image src={tile75} thumbnail /> P-26
+          </Col>
           </ Row>
           </Container>
 
@@ -164,6 +168,9 @@ const Tiles = () => {
           </Col>
           <Col xs={6} md={4} className="mt-5">
             <Image src={tile44} thumbnail /> S-15
+          </Col>
+          <Col xs={6} md={4} className="mt-5">
+            <Image src={tile74} thumbnail /> S-16
           </Col>
         </Row>
       </Container>
@@ -248,6 +255,12 @@ const Tiles = () => {
           </Col>
           <Col xs={6} md={4} className="mt-5">
             <Image src={tile71} thumbnail /> T-26
+          </Col>
+          <Col xs={6} md={4} className="mt-5">
+            <Image src={tile72} thumbnail /> T-27
+          </Col>
+          <Col xs={6} md={4} className="mt-5">
+            <Image src={tile73} thumbnail /> T-28
           </Col>
         </Row>
       </Container>
