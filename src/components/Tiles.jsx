@@ -3,13 +3,13 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import { tile1, tile2, tile3, tile4, tile5, tile6, tile7, tile8,
    tile9, tile10, tile11, tile12, tile13, tile14, tile15, tile16,
    tile17, tile18, tile19, tile20, tile21, tile22, tile23, tile24,
-    tile25, tile26, tile27, tile28, tile29, tile30, tile31, tile32, 
+    tile25, tile26, tile27, tile28, tile29, tile31, tile32, 
     tile33, tile34, tile35, tile36, tile37, tile38, tile39, tile40, 
     tile41, tile42, tile43, tile44, tile45, tile46, tile47, tile48, 
     tile49, tile50, tile51, tile52, tile53, tile54, tile55, tile56,
     tile57, tile58, tile59, tile60, tile61, tile62, tile63, tile64, 
     tile65, tile66, tile67, tile68, tile69, tile70, tile71, tile72,
-    tile73, tile74, tile75 } from '../assets/';
+    tile73, tile74, tile75, tile76, tile77 } from '../assets/';
 
 const Tiles = () => {
     return ( 
@@ -99,6 +99,9 @@ const Tiles = () => {
           <Col xs={6} md={4} className="mt-5">
             <Image src={tile75} thumbnail /> P-26
           </Col>
+          <Col xs={6} md={4} className="mt-5">
+            <Image src={tile77} thumbnail /> P-27
+          </Col>
           </ Row>
           </Container>
 
@@ -125,52 +128,49 @@ const Tiles = () => {
           <Container className="mt-5 border p-3"><h6 className="font-italic mt-5 mb-5">Antique Portuguese style hand painted tiles: Scenery</h6>
           <Row>
           <Col xs={6} md={4} className="mt-5">
-            <Image src={tile30} thumbnail /> S-1
+            <Image src={tile31} thumbnail /> S-1
           </Col>
           <Col xs={6} md={4} className="mt-5">
-            <Image src={tile31} thumbnail /> S-2
+            <Image src={tile32} thumbnail /> S-2
           </Col>
           <Col xs={6} md={4} className="mt-5">
-            <Image src={tile32} thumbnail /> S-3
+            <Image src={tile33} thumbnail /> S-3
           </Col>
           <Col xs={6} md={4} className="mt-5">
-            <Image src={tile33} thumbnail /> S-4
+            <Image src={tile34} thumbnail /> S-4
           </Col>
           <Col xs={6} md={4} className="mt-5">
-            <Image src={tile34} thumbnail /> S-5
+            <Image src={tile35} thumbnail /> S-5
           </Col>
           <Col xs={6} md={4} className="mt-5">
-            <Image src={tile35} thumbnail /> S-6
+            <Image src={tile36} thumbnail /> S-6
           </Col>
           <Col xs={6} md={4} className="mt-5">
-            <Image src={tile36} thumbnail /> S-7
+            <Image src={tile37} thumbnail /> S-7
           </Col>
           <Col xs={6} md={4} className="mt-5">
-            <Image src={tile37} thumbnail /> S-8
+            <Image src={tile38} thumbnail /> S-8
           </Col>
           <Col xs={6} md={4} className="mt-5">
-            <Image src={tile38} thumbnail /> S-9
+            <Image src={tile39} thumbnail /> S-9
           </Col>
           <Col xs={6} md={4} className="mt-5">
-            <Image src={tile39} thumbnail /> S-10
+            <Image src={tile40} thumbnail /> S-10
           </Col>
           <Col xs={6} md={4} className="mt-5">
-            <Image src={tile40} thumbnail /> S-11
+            <Image src={tile41} thumbnail /> S-11
           </Col>
           <Col xs={6} md={4} className="mt-5">
-            <Image src={tile41} thumbnail /> S-12
+            <Image src={tile42} thumbnail /> S-12
           </Col>
           <Col xs={6} md={4} className="mt-5">
-            <Image src={tile42} thumbnail /> S-13
+            <Image src={tile43} thumbnail /> S-13
           </Col>
           <Col xs={6} md={4} className="mt-5">
-            <Image src={tile43} thumbnail /> S-14
+            <Image src={tile44} thumbnail /> S-14
           </Col>
           <Col xs={6} md={4} className="mt-5">
-            <Image src={tile44} thumbnail /> S-15
-          </Col>
-          <Col xs={6} md={4} className="mt-5">
-            <Image src={tile74} thumbnail /> S-16
+            <Image src={tile74} thumbnail /> S-15
           </Col>
         </Row>
       </Container>
@@ -261,6 +261,9 @@ const Tiles = () => {
           </Col>
           <Col xs={6} md={4} className="mt-5">
             <Image src={tile73} thumbnail /> T-28
+          </Col>
+          <Col xs={6} md={4} className="mt-5">
+            <Image src={tile76} thumbnail /> T-29
           </Col>
         </Row>
       </Container>
