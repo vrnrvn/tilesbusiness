@@ -1,25 +1,27 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import { tile1, tile2, tile3, tile4, tile5, tile6, tile7, tile8,
-   tile9, tile10, tile11, tile12, tile13, tile14, tile15, tile16,
-   tile17, tile18, tile19, tile20, tile21, tile22, tile23, tile24,
-    tile25, tile26, tile27, tile28, tile29, tile31, tile32, 
-    tile33, tile34, tile35, tile36, tile37, tile38, tile39, tile40, 
-    tile41, tile42, tile43, tile44, tile45, tile46, tile47, tile48, 
-    tile49, tile50, tile51, tile52, tile53, tile54, tile55, tile56,
-    tile57, tile58, tile59, tile60, tile61, tile62, tile63, tile64, 
-    tile65, tile66, tile67, tile68, tile69, tile70, tile71, tile72,
-    tile73, tile74, tile75, tile76, tile77 } from '../assets/';
+import {
+  tile1, tile2, tile3, tile4, tile5, tile6, tile7, tile8,
+  tile9, tile10, tile11, tile12, tile13, tile14, tile15, tile16,
+  tile17, tile18, tile19, tile20, tile21, tile22, tile23, tile24,
+  tile25, tile26, tile27, tile28, tile29, tile31, tile32,
+  tile33, tile34, tile35, tile36, tile37, tile38, tile39, tile40,
+  tile41, tile42, tile43, tile44, tile45, tile46, tile47, tile48,
+  tile49, tile50, tile51, tile52, tile53, tile54, tile55, tile56,
+  tile57, tile58, tile59, tile60, tile61, tile62, tile63, tile64,
+  tile65, tile66, tile67, tile68, tile69, tile70, tile71, tile72,
+  tile73, tile74, tile75, tile76, tile77, tile78
+} from '../assets/';
 
 const Tiles = () => {
-    return ( 
+  return (
     <div className="text-center">
-        <h2>Gallery of Tiles</h2>
-        <p className="mt-5 mb-5">
-            Please check Etsy page for currently available tiles, or contact us to request special tiles
-        </p>
-        
-              <Container className="mt-5 border p-3"><h6 className="font-italic mt-5 mb-5">Antique Portuguese style 6" tiles</h6>
+      <h2>Gallery of Tiles</h2>
+      <p className="mt-5 mb-5">
+        Please check Etsy page for currently available tiles, or contact us to request special tiles
+      </p>
+
+      <Container className="mt-5 border p-3"><h6 className="font-italic mt-5 mb-5">Antique Portuguese style 6" tiles</h6>
         <Row>
           <Col xs={6} md={4}>
             <Image src={tile1} thumbnail /> P-1
@@ -102,11 +104,11 @@ const Tiles = () => {
           <Col xs={6} md={4} className="mt-5">
             <Image src={tile77} thumbnail /> P-27
           </Col>
-          </ Row>
-          </Container>
+        </ Row>
+      </Container>
 
-          <Container className="mt-5 border p-3"><h6 className="font-italic mt-5 mb-5">Pet portraits</h6> 
-          <Row>
+      <Container className="mt-5 border p-3"><h6 className="font-italic mt-5 mb-5">Pet portraits</h6>
+        <Row>
           <Col xs={6} md={4} className="mt-5">
             <Image src={tile26} thumbnail /> D-1
           </Col>
@@ -122,11 +124,11 @@ const Tiles = () => {
           <Col xs={6} md={4} className="mt-5">
             <Image src={tile67} thumbnail /> D-5
           </Col>
-          </Row>
-          </Container>
+        </Row>
+      </Container>
 
-          <Container className="mt-5 border p-3"><h6 className="font-italic mt-5 mb-5">Antique Portuguese style hand painted tiles: Scenery</h6>
-          <Row>
+      <Container className="mt-5 border p-3"><h6 className="font-italic mt-5 mb-5">Antique Portuguese style hand painted tiles: Scenery</h6>
+        <Row>
           <Col xs={6} md={4} className="mt-5">
             <Image src={tile31} thumbnail /> S-1
           </Col>
@@ -174,11 +176,11 @@ const Tiles = () => {
           </Col>
         </Row>
       </Container>
-     
-      
+
+
       <Container className="mt-5 border p-3 mb-5"><h6 className="font-italic mt-5 mb-5">Sets of 4.25" hand painted tiles</h6>
         <Row>
-         <Col xs={6} md={4} className="mt-5">
+          <Col xs={6} md={4} className="mt-5">
             <Image src={tile45} thumbnail /> T-1
           </Col>
           <Col xs={6} md={4} className="mt-5">
@@ -265,10 +267,13 @@ const Tiles = () => {
           <Col xs={6} md={4} className="mt-5">
             <Image src={tile76} thumbnail /> T-29
           </Col>
+          <Col xs={6} md={4} className="mt-5">
+            <Image src={tile78} thumbnail /> T-30
+          </Col>
         </Row>
       </Container>
-    </div> 
-    );
+    </div >
+  );
 }
- 
+
 export default Tiles;

@@ -74,3 +74,4 @@ export { default as tile74 } from './tile74.jpg';
 export { default as tile75 } from './tile75.jpg';
 export { default as tile76 } from './tile76.jpg';
 export { default as tile77 } from './tile77.jpg';
+export { default as tile78 } from './tile78.jpg';
