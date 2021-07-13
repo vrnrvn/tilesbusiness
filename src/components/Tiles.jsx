@@ -10,7 +10,7 @@ import {
   tile49, tile50, tile51, tile52, tile53, tile54, tile55, tile56,
   tile57, tile58, tile59, tile60, tile61, tile62, tile63, tile64,
   tile65, tile66, tile67, tile68, tile69, tile70, tile71, tile72,
-  tile73, tile74, tile75, tile76, tile77, tile78
+  tile73, tile74, tile75, tile76, tile77, tile78, tile79, tile80
 } from '../assets/';
 
 const Tiles = () => {
@@ -269,6 +269,12 @@ const Tiles = () => {
           </Col>
           <Col xs={6} md={4} className="mt-5">
             <Image src={tile78} thumbnail /> T-30
+          </Col>
+          <Col xs={6} md={4} className="mt-5">
+            <Image src={tile79} thumbnail /> T-31
+          </Col>
+          <Col xs={6} md={4} className="mt-5">
+            <Image src={tile80} thumbnail /> T-32
           </Col>
         </Row>
       </Container>
